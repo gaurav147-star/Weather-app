@@ -29,12 +29,12 @@ form{
 }
 
 .title-container {
-   margin-top: 100px;
+   margin-top: 30px;
    font-family: 'Raleway', sans-serif;
    letter-spacing: 2px;
    color: white;
    font-weight: 500;
-   font-size: 48px;
+   font-size: 45px;
 }
 
 
@@ -52,16 +52,16 @@ input[type="text"] {
   width: 90%;
   border-bottom: solid 1px white;
   padding-bottom: 4px;
-  color: black !important;
+  color: rgb(224, 224, 224) !important;
   font-weight: 300;
   font-weight : bold;
   letter-spacing: 1px;
   text-align: center;
+  margin: 50px auto;
 } 
 
 
 button {
-  margin-top: 50px;
   margin-bottom: 100px;
   padding: 8px 20px;
   border-radius: 16px;
@@ -71,6 +71,8 @@ button {
   background-color: transparent;
   color: #fff;
   font-weight: bolder;
+  width: 200px;
+  margin: 50px auto;
 }
 button:hover {
   background-color: orangered;
