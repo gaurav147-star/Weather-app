@@ -1,9 +1,8 @@
 import React from "react";
-import Titles from "./component/titles";
 import Form from "./component/form";
 import Weather from "./component/weather"
 
-const API_KEY = "c04b719a2aabb70bf5672301fe592c3e";
+const API_KEY = process.env.REACT_APP_API_KEY;
 
 class App extends React.Component {
   state = {
@@ -67,8 +66,8 @@ class App extends React.Component {
         <div className="container">
           <div className="row">
             
-            <div className="col-md-5 form-container">
-              <Titles />
+            <div className="col-md-5 form-container" id="formcont">
+              
               <Form getWeather={this.getWeather} />  
             </div>    
 
