@@ -7,7 +7,9 @@
   background-position: center;
   background-size: cover;
 } */
-
+body{
+  background: lightblue url("./bg.jpg") no-repeat fixed center;
+}
 .container {
   margin-top : 60px;
   padding : 35px;
@@ -63,6 +65,7 @@ input[type="text"] {
   background-color: transparent;
   border: 0;
   width: 90%;
+  height: 25px;
   border-bottom: solid 1px white;
   padding-bottom: 4px;
   color: rgb(224, 224, 224) !important;
@@ -71,6 +74,8 @@ input[type="text"] {
   letter-spacing: 1px;
   text-align: center;
   margin: 50px auto;
+  font-size: 1.3rem;
+ 
 } 
 
 
@@ -93,7 +98,7 @@ button:hover {
 }
 
 .weadata{
-  background:rgba(255, 187, 0, 0.801);
+  background:rgba(0, 81, 255, 0.856);
   width: 600px !important;
   margin: auto;
   justify-content: center;
@@ -112,35 +117,42 @@ button:hover {
   font-size: 22px;
   margin-top: 22px;
   padding-top: 10px;
+  color: #fff;
 }
 
 .temperature {
   font-size: 78px; 
+  color: #fff;
 }
 .min_max_temperature {
+  color: #fff;
   font-size: 22px;
 }
 .humidity {
   margin-top: 28px;
   font-size: 18px;
   font-family: serif;
+  color: #fff;
 
 }
 .wind_speed {
   font-size: 18px;
   font-family: serif;
+  color: #fff;
 }
 .conditions {
   padding-top: 38px;
   font-size: 32px;
   font-style: italic;
   padding-bottom: 20px;
+  color: #fff;
 }
 .error {
   margin-top: 80px;
   font-family: 'Playfair Display', serif;
   font-size: 38px;
   color: red;
+  color: #fff;
 }
 @media screen and (max-width: 700px) {
   #formcont{
